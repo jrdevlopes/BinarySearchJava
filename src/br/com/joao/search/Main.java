@@ -20,7 +20,7 @@ public class Main {
         while(tentativas > 0){
             qtdTentativas += 1;
             int aleatorio = gerador.nextInt(min, max);
-            System.out.println("Numero: " + aleatorio);
+            System.out.println("Número: " + aleatorio);
 
             if(aleatorio == num){
                 System.out.println("Acertou o número sorteado: " + aleatorio);
